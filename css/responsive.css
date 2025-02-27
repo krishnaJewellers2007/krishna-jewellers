@@ -1,0 +1,230 @@
+@media(min-width:992px) and (max-width:1199px) {
+    .price_item ul li {
+        margin-left: 20px;
+    }
+    .blog_small .blog_text h3 {
+        font-size: 18px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    #krishnamenu li a {
+        padding: 10px 15px;
+    }
+    .price_main {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .price_main:first-child .price_item {
+        right: -10px;
+    }
+    .price_main:last-child .price_item {
+        left: -10px;
+    }
+    .price_item ul li {
+        margin-left: 0px;
+    }
+}
+@media(max-width:991px){
+    #krishnamenu ul{
+        margin-top: 20px;
+    }
+    #krishnamenu li a::after{
+        left: 0;
+        bottom: 50%;
+        transform: translate(0,50%) ;
+        -webkit-transform: translate(0,50%);
+    }
+    .inner_page_head{
+        margin-top: 55px;
+    }
+}
+@media(min-width:576px) and (max-width:767px) {
+    #krishnamenu li a {
+        padding: 10px 15px;
+    }
+    .section_header {
+        margin-bottom: 60px;
+    }
+    .banner_item {
+        height: 450px;
+    }
+    .banner_content h2 {
+        font-size: 50px;
+    }
+    .banner_content h4{
+        font-size: 2rem;
+    }
+    .banner_content a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .banner_content p {
+        padding-bottom: 15px;
+    }
+    .about_skill h3,
+    .about_inner{
+        text-align: center;
+    }
+    .skills {
+        margin-top: 24px;
+    }
+    .about_skill {
+        padding-left: 0;
+        margin-top: 40px;
+    }
+    #counter_part {
+        padding: 50px 0;
+    }
+    .counter_inner {
+        margin: 30px 0;
+    }
+    .home_gallary_img img {
+        width: 100%;
+    }
+    #team_part {
+        margin-bottom: -30px;
+    }
+    .team_item {
+        margin-bottom: 30px;
+    }
+    #price_table {
+        padding-bottom: 20px;
+    }
+    .price_main:first-child .price_item {
+        right: 0px;
+    }
+    .price_main:last-child .price_item {
+        left: 0px;
+    }
+    .price_main:nth-child(2) .price_item {
+        transform: translateY(0px);
+    }
+    .price_item {
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+    .price_item ul li {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .blog_text {
+        padding: 15px;
+    }
+    .contact_info {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .blog_img img {
+        width: 100%;
+    }
+
+}
+
+@media(max-width:575px) {
+    #krishnamenu li a {
+        padding: 10px 15px;
+    }
+    .section_header {
+        margin-bottom: 60px;
+    }
+    .banner_item {
+        height: 450px;
+    }
+    .banner_content h2 {
+        font-size: 40px;
+    }
+    .banner_content h4{
+        font-size: 1.5rem;
+    }
+    .banner_content a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .header_social_link a{
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 14px;
+    }
+    .banner_content p {
+        padding-bottom: 15px;
+    }
+    .about_skill h3,
+    .about_inner{
+        text-align: center;
+    }
+    .skills {
+        margin-top: 20px;
+    }
+    .about_skill {
+        padding-left: 0;
+        margin-top: 40px;
+    }
+    #counter_part {
+        padding: 50px 0;
+    }
+    .counter_inner {
+        margin: 30px 0;
+    }
+    .home_gallary_img img {
+        width: 100%;
+    }
+    #team_part {
+        margin-bottom: -30px;
+    }
+    .team_item {
+        margin-bottom: 30px;
+    }
+    #price_table {
+        padding-bottom: 20px;
+    }
+    .price_main:first-child .price_item {
+        right: 0px;
+    }
+    .price_main:last-child .price_item {
+        left: 0px;
+    }
+    .price_main:nth-child(2) .price_item {
+        transform: translateY(0px);
+    }
+    .price_item {
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+    .price_item ul li {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .blog_text {
+        padding: 15px;
+    }
+    .contact_info {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .blog_img img {
+        width: 100%;
+    }
+    .ditels_icon{
+        margin-bottom: 20px;
+    }
+    .ditels_icon span {
+        margin: 10px 0 0px 0;
+    }
+    .blg_dtls_content .media .media-left {
+        padding-right: 10px;
+    }
+    .blg_dtls_content .media .media-left img{
+        width: 50px !important;
+    }
+
+    .blg_dtls_content h4 span {
+        float: none;
+        font-size: 13px;
+        font-weight: 400;
+        display: block;
+        margin-top: 5px;
+    }
+
+    
+}
